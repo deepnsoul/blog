@@ -138,6 +138,14 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
     font-weight: bold;
 }
 
+.content h4 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #008A3C;
+    font-weight: bold;
+
+}
+
 .content p
 {
     font-family: "Roboto Condensed", Arial, sans-serif;
@@ -155,7 +163,7 @@ input[data-function*='swipe']:checked ~ label[data-function*='swipe'] {
     font-size: 16px;
     line-height: normal;
     font-style: normal;
-    color: #8C8C8C;
+    color: #008A3C;
     font-weight: 300;
 
 }
