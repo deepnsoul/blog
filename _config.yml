@@ -1,18 +1,17 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog
+title: lukikim
+email: lukisoul@gmail.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: Like jumping into an invisible current that just...carries you away.
 
 # Social icons
-facebook: username
-linkedin: username
-github: username
-deviantart: username
-codepen: username
+facebook: lukisoul
+linkedin: lukisoul
+github: musicboy-luki
+
 
 footer: © Taken theme
 
