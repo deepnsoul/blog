@@ -18,7 +18,7 @@ permalink: /about/
 
 그래서 이 블로그를 시작
 
-_
+---
 
 블로그는 github에서 지원하는 jekyll 테마[Taken](http://theme-chapter.tumblr.com/)를 이용하여 개설했고
 
@@ -28,6 +28,5 @@ _
 
 긴 이야기가 필요하다면 lukisoul@gmail.com으로 언제든 연락주세요.
 
-_
 
-since 2017
+*since 2017*
