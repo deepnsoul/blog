@@ -26,23 +26,23 @@ Discover Weekly 출시된 이후 이 기능의 성공에 관한 많은 이야기
 
 ---
 
-# [By Sofie Lindblom, labs.spotify.com] What made Discover Weekly one of our most successful feature launches to date?
+## [By Sofie Lindblom, labs.spotify.com] What made Discover Weekly one of our most successful feature launches to date?
 
 [원문 보기](https://labs.spotify.com/2015/11/18/what-made-discover-weekly-one-of-our-most-successful-feature-launches-to-date/)
 
-# [By John Mcdermott, Learn, melmagazine.com] How Spotify Solved for the ‘Paradox of Choice’
+## [By John Mcdermott, Learn, melmagazine.com] How Spotify Solved for the ‘Paradox of Choice’
 
 [원문 보기](https://melmagazine.com/how-spotify-solved-for-the-paradox-of-choice-28c4a2f0d09f#.nx4l7mitl)
 
-# [By Adam Pasick, qz.com] The magic that makes Spotify’s Discover Weekly playlists so damn good
+## [By Adam Pasick, qz.com] The magic that makes Spotify’s Discover Weekly playlists so damn good
 
 [원문 보기](https://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/)
 
-# [By Chris Johnson, Engineering Manager, spotify.com] From Idea to Execution: Spotify's Discover Weekly
+## [By Chris Johnson, Engineering Manager, spotify.com] From Idea to Execution: Spotify's Discover Weekly
 
 [원문 보기](https://www.slideshare.net/MrChrisJohnson/from-idea-to-execution-spotifys-discover-weekly/20-2008_2012_2015Slide_from_Dan)
 
-# Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix factorization techniques for recommender systems. Computer, 42(8).
+## Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix factorization techniques for recommender systems. Computer, 42(8).
 
 [원문 보기](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)
 
