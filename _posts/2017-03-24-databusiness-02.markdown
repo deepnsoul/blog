@@ -46,6 +46,6 @@ Discover Weekly 출시된 이후 이 기능의 성공에 관한 많은 이야기
 
 [원문 보기](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)
 
-# Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013). Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems (pp. 3111-3119).
+## Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013). Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems (pp. 3111-3119).
 
 [원문 보기](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
