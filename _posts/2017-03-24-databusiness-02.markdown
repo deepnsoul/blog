@@ -6,32 +6,46 @@ tags: databusiness spotify discoverweekly
 comments: true
 ---
 
-가끔 우리는 상대방이 어떤 음악을 좋아하는지 아는 것 만으로도 어떤 사람일지 상상해볼 수 있다. 스트리밍으로 언제 어디서나 끊임없이 음악을 듣을 수 있는 환경에서 점점 한 사람의 아이텐티티가 음악을 통해 구축되고 있는지도 모른다.
+Discover Weekly 출시된 이후 이 기능의 성공에 관한 많은 이야기들이 보도되었다. 흥미로웠던 건 Spotify도 자체적으로 분석 및 평가하여 공유한 내용인데, 필자는 이를 중심으로 이번 포스트를 채워보려고 한다.
 
-그러나, 생각만큼 어떤 음악을 좋아하세요? 라는 질문에 대해 대답하기 쉽지 않더라. 필자도 나름 음악을 좋아하고, 많이 들어왔다고 생각했지만, 스쳐지나갔던 뮤지션과 곡, 장르 등을 한 번에 머리 속에서 꺼내긴 어렵다. 브라운아이즈소울, John Legend를 좋아한다고 해서 이들이 나의 음악적 취향을 모두 대변할 수는 없다. 결국 스스로 어떤 음악을 좋아하는지 정의하는 것은 쉬운 일은 아니다.
+목차는
 
-그런데,  내가 항상 사용하는 스트리밍 서비스는 나의 음악적 취향을 나보다 더 잘 알고 있을 것 같다. 이들은 내가 언제 어디서 무엇을 얼마나 듣는지 모두 알 수 있다. 만약 이들이 똑똑하다면, 내가 어떤 사람일지까지 예측할 수 있을 것이다.
+먼저 Discover Weekly가 출시된 배경,
 
-올해초 [음악 스트리밍 서비스 Spotify](https://www.spotify.com)를 사용한 뒤(아직 국내에서는 정식 서비스되지 않기 때문에 우회로 사용 필요)로, 이들이 이미 앞선 생각들을 현실화시키고 있다고 느꼈다.  Spotify는 기존에 좋아했지만 잊고 있던 음악들을 다시 상기시켜주는 것 뿐만 아니라, 앞으로 좋아할만한 음악들까지 끊임없이 소개해준다. 이만큼 나를 잘 이해하고 있는 다른 음악 스트리밍 서비스가 과연 있을까?
+이후 두 기자의 사용기 및 평가,
+
+네번째로 개발 담당자의 개발 과정 공유자료,
+
+마지막 핵심 추천 모델에 관한 두가지 논문으로,
+
+구성되어있다.
 
 
-![spotify app]({{ site.baseurl}}/assets/spotify_app.jpg)
-*Spotify App의 Discover 페이지*
-
----
-
-아래 차트에 보이듯이 올해 Spotify의 유료 구독자수는 50 million(약 5,000만명)으로 다른 음악 스트리밍 서비스에 비해 월등히 앞서있다.
-![sub_chart]({{ site.baseurl}}/assets/sub_chart.png)
-
-그럼에도 불구, 최근 [QUARTZ의 기사](https://qz.com/924057/spotify-has-50-million-people-paying-for-its-music-why-is-it-still-unprofitable/)를 보면 여전히 수익을 내지못하는 Spotify의 불안정한 비즈니스 모델에 대해 경계하고 있다.
-
-이 기사에서는, 음악 스트리밍 시장이 포화상태라 투자에 회의적인 시각이 있는 상황에서, Spotify지속적으로 많은 돈을 잃고 있는 문제를 지적한다.  30 million song(약 3,000만 곡)의 라이센스를 감당하기 위해 현금의 80%를 저작권 비용으로 쓰고 있는데, 유료 구독자 비율이 전체의 30%밖에 안되어 수익을 내지 못하고 있는 것이다. 즉, 대부분의 사용자는 무료로 이용하고 있다는 것인데, 사실 필자 역시 무료로 사용하면서 거의 불편함을 느끼지 못했기 때문에(대부분의 주요 기능이 제공되면서 광고도 거의 없음) 유료 구독 전환 니즈가 크지 않았다(국내 스트리밍을 세컨드로 사용하고 있는 것도 한가지 원인인듯).
-
-결국, 이 기사는 비즈니스 모델의 변화가 필요하다고 마지막에 언급하는데, 최근에 Spotify는 기업공개를 준비하는 목적으로 [수익 모델 개선](https://9to5mac.com/2017/03/16/spotify-royalties-labels-new-releases-apple-music-paid-subscribers/)을 검토중이라니, 좀 더 지켜볼 필요가 있을 것 같다.
+* ToC
+{:toc}
 
 ---
 
-이러한 우려의 목소리와 별개로, Spotify는 수많은 충성 구독자들을 보유하고 있는데, 이에 결정적 역할을 한 기능이 바로 [Discover Weekly](https://www.spotify.com/int/discoverweekly/)이다. 매주 월요일마다 당신이 듣고 있는 플레이리스트를 기반으로 당신이 좋아할 만한 새로운 믹스테이프(30개 곡 포함)가 제공되는데, 매주 월요일이 기다려질정도로 그 믹스테이프는 강력한 매력을 가지고 있다. 필자 역시도 처음 믹스테이프를 플레이 시켰을 때 놀랐던 기억이 아직까지 생생하다. 아니 어떻게 하나같이 다 내 취향인거지!!!
+# [By Sofie Lindblom, labs.spotify.com] What made Discover Weekly one of our most successful feature launches to date?
 
+[원문 보기](https://labs.spotify.com/2015/11/18/what-made-discover-weekly-one-of-our-most-successful-feature-launches-to-date/)
 
-Data driven business [Spotify-2]에서는 'Discover weekly' 기능이 어떤 과정을 거쳐 나오게 되었고, 어떤 기술을 통해 구현되었는지 자세히 살펴보려고 한다.
+# [By John Mcdermott, Learn, melmagazine.com] How Spotify Solved for the ‘Paradox of Choice’
+
+[원문 보기](https://melmagazine.com/how-spotify-solved-for-the-paradox-of-choice-28c4a2f0d09f#.nx4l7mitl)
+
+# [By Adam Pasick, qz.com] The magic that makes Spotify’s Discover Weekly playlists so damn good
+
+[원문 보기](https://qz.com/571007/the-magic-that-makes-spotifys-discover-weekly-playlists-so-damn-good/)
+
+# [By Chris Johnson, Engineering Manager, spotify.com] From Idea to Execution: Spotify's Discover Weekly
+
+[원문 보기](https://www.slideshare.net/MrChrisJohnson/from-idea-to-execution-spotifys-discover-weekly/20-2008_2012_2015Slide_from_Dan)
+
+# Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix factorization techniques for recommender systems. Computer, 42(8).
+
+[원문 보기](https://datajobs.com/data-science-repo/Recommender-Systems-[Netflix].pdf)
+
+# Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013). Distributed representations of words and phrases and their compositionality. In Advances in neural information processing systems (pp. 3111-3119).
+
+[원문 보기](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
